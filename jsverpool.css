@@ -83,11 +83,39 @@ div {
   display: inline-block;
   margin:0 auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .real-img {
   height:100%;
   width:100%;
   object-fit: contain;
+}
+
+@media (max-width: 450px) {
+
+  .div-img {
+    width:100%;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .btn-hover {
+    margin:0px;
+  }
+
+  .div-p {
+    margin-top:-40px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
 }
