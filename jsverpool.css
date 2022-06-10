@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: rgb(241, 241, 241);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.btn-hover {
+  width: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-11 {
+  background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+.btn-hover.color-10 {
+  background-image: linear-gradient(to right, #2b3dc0, #391cd8, #544897, #0f0c5b);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+
+
+
+
+.navbar {
+  width:100%;
+}
+
+.navbar a {
+  margin:0 auto;
+  font-size: 30px;
+}
+
+
+.title {
+  margin-top: 40px;
+}
+
+.title h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.div-img {
+  margin: 0 auto;
+  width:40%;
+  height:400px;
+  border:solid 1px black;
+}
+
+.div-btn {
+  text-align: center;
+  margin-top:20px;
+
+}
+
+
+.div-p {
+  display: inline-block;
+  margin:0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.real-img {
+  height:100%;
+  width:100%;
+  object-fit: contain;
+}
